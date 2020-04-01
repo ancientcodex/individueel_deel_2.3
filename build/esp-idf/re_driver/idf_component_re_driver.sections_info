@@ -1,0 +1,112 @@
+In archive C:/Users/tjall/Desktop/esp_adf/esp-adf/projects/individueel_tjalling_snijder/build/esp-idf/re_driver/libre_driver.a:
+
+re_driver.c.obj:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.re_driver_initialize 00000018  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.re_driver_write_register 00000030  00000000  00000000  0000004c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.re_driver_read_register 00000050  00000000  00000000  0000007c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.re_driver_write_register16 00000024  00000000  00000000  000000cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.re_driver_read_register16 00000060  00000000  00000000  000000f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.re_driver_getStatus 00000004  00000000  00000000  00000150  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.re_driver_interruptEnable 00000008  00000000  00000000  00000154  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.re_driver_setColorRed 00000004  00000000  00000000  0000015c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.re_driver_setColorGrn 00000004  00000000  00000000  00000160  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.re_driver_setColorBlu 00000004  00000000  00000000  00000164  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.re_driver_connectColorRed 00000004  00000000  00000000  00000168  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.re_driver_connectColorGrn 00000004  00000000  00000000  0000016c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.re_driver_connectColorBlu 00000004  00000000  00000000  00000170  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.re_driver_getCount 00000004  00000000  00000000  00000174  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.re_driver_getDiff 00000008  00000000  00000000  00000178  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.re_driver_getTSLM 00000008  00000000  00000000  00000180  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.re_driver_getTSLB 00000008  00000000  00000000  00000188  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.re_driver_is_connected 00000010  00000000  00000000  00000190  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text         00000000  00000000  00000000  000001a0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 19 .data         00000000  00000000  00000000  000001a0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 20 .bss          00000000  00000000  00000000  000001a0  2**0
+                  ALLOC
+ 21 .rodata.str1.4 000000ec  00000000  00000000  000001a0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 22 .text.re_driver_initialize 00000042  00000000  00000000  0000028c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.re_driver_write_register 00000084  00000000  00000000  000002d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.re_driver_read_register 000000e5  00000000  00000000  00000354  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.re_driver_write_register16 00000080  00000000  00000000  0000043c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.re_driver_read_register16 0000013e  00000000  00000000  000004bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.re_driver_getStatus 0000001c  00000000  00000000  000005fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .text.re_driver_interruptEnable 00000030  00000000  00000000  00000618  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text.re_driver_setColorRed 0000001c  00000000  00000000  00000648  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .text.re_driver_setColorGrn 0000001c  00000000  00000000  00000664  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text.re_driver_setColorBlu 0000001c  00000000  00000000  00000680  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text.re_driver_connectColorRed 0000001c  00000000  00000000  0000069c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.re_driver_connectColorGrn 0000001c  00000000  00000000  000006b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text.re_driver_connectColorBlu 0000001c  00000000  00000000  000006d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .text.re_driver_getCount 0000001c  00000000  00000000  000006f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .text.re_driver_getDiff 00000030  00000000  00000000  0000070c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .text.re_driver_getTSLM 00000030  00000000  00000000  0000073c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .text.re_driver_getTSLB 00000030  00000000  00000000  0000076c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .text.re_driver_is_connected 00000036  00000000  00000000  0000079c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .text.RE_set_bit 00000007  00000000  00000000  000007d4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 41 .debug_frame  000001d8  00000000  00000000  000007dc  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 42 .debug_info   00001230  00000000  00000000  000009b4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 43 .debug_abbrev 000001d3  00000000  00000000  00001be4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 44 .debug_loc    00000606  00000000  00000000  00001db7  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 45 .debug_aranges 000000b0  00000000  00000000  000023bd  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 46 .debug_ranges 000000a0  00000000  00000000  0000246d  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 47 .debug_line   00000801  00000000  00000000  0000250d  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 48 .debug_str    00000943  00000000  00000000  00002d0e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 49 .comment      0000003c  00000000  00000000  00003651  2**0
+                  CONTENTS, READONLY
+ 50 .xtensa.info  00000038  00000000  00000000  0000368d  2**0
+                  CONTENTS, READONLY
+ 51 .xt.lit       00000090  00000000  00000000  000036c5  2**0
+                  CONTENTS, RELOC, READONLY
+ 52 .xt.prop      000005b8  00000000  00000000  00003755  2**0
+                  CONTENTS, RELOC, READONLY
